@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>dnn_detect</name>
-  <version>0.0.3</version>
+  <version>0.1.0</version>
   <description>DNN based detection</description>
 
   <maintainer email="jimv@mrjim.com">Jim Vaughan</maintainer>
@@ -19,10 +19,9 @@
   <depend>tf2</depend>
   <depend>visualization_msgs</depend>
   <depend>image_transport</depend>
+  <depend>image_transport_plugins</depend>
   <depend>sensor_msgs</depend>
   <depend>cv_bridge</depend>
-  <depend>opencv3</depend>
-  <depend>fiducial_msgs</depend>
   <depend>dynamic_reconfigure</depend>
 
 </package>
